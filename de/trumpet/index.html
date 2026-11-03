@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NoteUp! · Übe Rhythmus, Gehörbildung, Tonleitern und Intonation</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#f5f5f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)">
+<meta name="description" content="Übe Rhythmus, Gehörbildung, Tonleitern und Intonation.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="NoteUp!">
+<meta property="og:title" content="NoteUp!">
+<meta property="og:description" content="Übe Rhythmus, Gehörbildung, Tonleitern und Intonation.">
+<meta property="og:url" content="https://noteup-app.github.io/de/trumpet/">
+<meta property="og:image" content="https://noteup-app.github.io/images/og-trumpet-de.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="NoteUp! Logo, eine Note als Nadel eines Stimmgeräts">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://noteup-app.github.io/de/">
+<script>
+// a German browser goes straight to /de/, where the app would send it anyway
+var path = location.pathname;
+if (!/^\/de\//.test(path) && /^de\b/i.test(navigator.language || "")) path = "/de" + path;
+location.replace("https://noteup-app.github.io" + path + location.search + location.hash);
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=https://noteup-app.github.io/de/trumpet/"></noscript>
+<style>
+  body { margin: 0; padding: 3rem 1rem; font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-align: center; background: #f5f5f3; color: #52514e; }
+  @media (prefers-color-scheme: dark) { body { background: #111110; color: #c3c2b7; } }
+  a { color: inherit; }
+  /* the page is gone before this shows, the text only appears if the jump hangs */
+  p { opacity: 0; animation: show .3s 2s forwards; }
+  @keyframes show { to { opacity: 1; } }
+</style>
+</head>
+<body>
+<p lang="de">NoteUp! ist umgezogen nach <a href="https://noteup-app.github.io/de/trumpet/">noteup-app.github.io</a>.</p>
+<p lang="en">NoteUp! has moved to <a href="https://noteup-app.github.io/de/trumpet/">noteup-app.github.io</a>.</p>
+</body>
+</html>
